@@ -1,0 +1,151 @@
+
+header {
+ background-color: #F1C5C5;
+ color: #8BCDCD;
+ padding: 30px;
+ font-family: "verdana";
+ text-decoration: none;
+ font-weight: bold;
+ text-align: center;
+ font-size: 30px;
+ display: absolute;
+ align-items: center;
+ justify-content: center;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0px;
+ padding: 0%;
+
+}
+
+nav li {
+ display: inline-block;
+ margin-right: 80px;
+}
+
+nav a {
+ color: #FAF0AF;
+ text-decoration: none;
+ padding: 5px;
+}
+
+nav a:hover {
+ color: #8BCDCD;
+}
+
+@media (max-width: 767px) {
+ header {background-color: #8BCDCD;}
+}
+
+@media (max-width: 767px) {
+ nav {
+     font-size: 16px;
+     left: 0%;
+ }
+}
+
+@media (min-width: 1200px){
+ header {
+     width: 1200px;
+ }
+}
+body {
+    background-color:#FAF0AF;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #8BCDCD;
+    margin: 20px 0px 30px 30px;
+    border: dotted 20px #8BCDCD;
+    background-color: #FAF0AF;
+    padding: 30px 30px 30px 30px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #8BCDCD;
+    margin: 20px 0px 30px 30px;
+    border: dotted 20px #8BCDCD;
+    background-color: #FAF0AF;
+    padding: 30px 30px 30px 30px;
+}
+
+p {
+    background-color: #E5EDB7;
+    font-family: 'Arial', serif;
+    font-size: 18px;
+    padding: 60px 30px 30px 30px;
+    margin: 60px;
+    content: 80px;
+    margin: 20px 0px 30px 50px;
+    border: dotted 20px #F1C5C5;
+    text-align: center;
+    color: #8BCDCD;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex:100%;
+    
+    }
+}
+
+.myForm {
+    align-self: auto;
+    background-color: #E5EDB7;
+    border: solid 30px #14B1AB;
+    color: #8BCDCD; 
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 40px 40px 40px;
+    width: 600px;
+    height: 50px;
+    font-family: 'Verdana';
+     }
+  
+.button {
+    font-family: 'Verdana';
+    color: #8BCDCD;
+
+}
+
+footer {
+    align-self: auto;
+    background-color: #E5EDB7;
+    border: solid 10px #14B1AB;
+    color: #8BCDCD; 
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 40px 40px 40px;
+    width: 1600px;
+    height: 40px;
+    font-family: 'Verdana';
+     }
